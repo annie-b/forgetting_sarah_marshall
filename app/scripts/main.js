@@ -9,7 +9,7 @@ $(document).ready(function(){
 
       $('html, body').stop().animate({
           'scrollTop': $target.offset().top,
-      }, 1000, 'swing', function() {
+      }, 800, 'swing', function() {
           window.location.hash = target;
       });
   });
