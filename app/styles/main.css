@@ -80,7 +80,7 @@ body {
   padding-top: 60px;
 }
 
-#first_step {
+#first_step, #second_step{
   padding-top: 25px;
 }
 /*.breakup_pic {
