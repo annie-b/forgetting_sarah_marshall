@@ -52,19 +52,35 @@ body {
 /* Main marketing message and sign up button */
 .jumbotron {
   text-align: center;
-  font-family: Oxygen;
-  font-size: 18px;
   border-bottom: 1px solid #e5e5e5;
   position: relative;
   height: 95vh;
   left: 185px;
 }
 
+.welcome {
+  margin-top: -30px;
+}
+
+.jumbotron p {
+  font-family: Oxygen;
+  font-size: 18px;
+}
+
+.lemons {
+  position: relative;
+  padding-left: 10px;
+  padding-top: 20px;
+  float: right;
+  width: 300px;
+  height: 350px;
+}
+
 
 .post_jumbotron {
   text-align: center;
   font-family: Oxygen;
-  font-size: 18px;
+  font-size: 21px;
   color: white;
   position: relative;
   height: 100vh;
@@ -77,12 +93,14 @@ body {
 
 
 .jumbotron .btn {
-  font-size: 21px;
+  font-size: 18px;
   padding: 14px 24px;
+  margin-bottom: 10px;
 }
 
 .glyphicon {
   padding-top: 30px;
+  color: 'white';
 }
 
 #first_step, #second_step, #third_step, #fourth_step, #fifth_step, #sixth_step, #seventh_step{
@@ -92,6 +110,11 @@ body {
 .breakup_pic {
   width: 450px;
   height: 300px;
+}
+
+.lesson_5 {
+  height: 350px;
+  width: 475px;
 }
 
 /* Supporting marketing content */
