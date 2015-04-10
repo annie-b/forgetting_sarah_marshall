@@ -60,14 +60,19 @@ body {
   left: 185px;
 }
 
+
 .post_jumbotron {
   text-align: center;
   font-family: Oxygen;
   font-size: 18px;
-  border-bottom: 1px solid #e5e5e5;
+  color: white;
   position: relative;
   height: 100vh;
   left: 185px;
+}
+
+.post_jumbotron h1, .jumbotron h1 {
+  font-family: 'Permanent Marker', cursive;
 }
 
 
@@ -77,17 +82,17 @@ body {
 }
 
 .glyphicon {
-  padding-top: 60px;
+  padding-top: 30px;
 }
 
-#first_step, #second_step{
+#first_step, #second_step, #third_step, #fourth_step, #fifth_step, #sixth_step, #seventh_step{
   padding-top: 25px;
 }
-/*.breakup_pic {
-  width: 250px;
-  height: 500px;
-  align: right;
-}*/
+
+.breakup_pic {
+  width: 450px;
+  height: 300px;
+}
 
 /* Supporting marketing content */
 .marketing {
