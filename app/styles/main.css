@@ -30,16 +30,19 @@ body {
 }
 
 /* Custom page header */
-.header {
+/*.header {
   border-bottom: 1px solid #e5e5e5;
-}
+}*/
 
 /* Make the masthead heading the same height as the navigation */
 .header h3 {
   margin-top: 0;
   margin-bottom: 0;
   line-height: 40px;
+  margin-right: 200px;
   padding-bottom: 19px;
+  position: fixed;
+  margin-right: 400px;
 }
 
 /* Custom page footer */
@@ -57,6 +60,9 @@ body {
 .jumbotron {
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
+  position: relative;
+  left: 185px;
+  /*z-index: -1;*/
 }
 
 .jumbotron .btn {
